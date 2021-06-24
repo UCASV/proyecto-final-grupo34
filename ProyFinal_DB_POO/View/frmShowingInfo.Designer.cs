@@ -1,7 +1,7 @@
 ﻿
 namespace ProyFinal_DB_POO
 {
-    partial class Form1
+    partial class frmShowingInfo
     {
         /// <summary>
         /// Required designer variable.
@@ -29,31 +29,12 @@ namespace ProyFinal_DB_POO
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(252, 211);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 0;
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            this.Text = "frmShowingInfo";
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
     }
 }

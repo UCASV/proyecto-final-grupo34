@@ -1,57 +1,61 @@
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ProyFinal_DB_POO.exe
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ProyFinal_DB_POO.deps.json
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ProyFinal_DB_POO.runtimeconfig.json
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ProyFinal_DB_POO.runtimeconfig.dev.json
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ProyFinal_DB_POO.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ref\ProyFinal_DB_POO.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ProyFinal_DB_POO.pdb
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.csprojAssemblyReference.cache
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.AssemblyInfoInputs.cache
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.AssemblyInfo.cs
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.csproj.CoreCompileInputs.cache
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ref\ProyFinal_DB_POO.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.pdb
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.genruntimeconfig.cache
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Humanizer.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.Form1.resources
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.csproj.GenerateResource.cache
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.csproj.CopyComplete
-C:\Users\musa0\source\repos\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.Login.resources
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ProyFinal_DB_POO.exe
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ProyFinal_DB_POO.deps.json
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ProyFinal_DB_POO.runtimeconfig.json
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ProyFinal_DB_POO.runtimeconfig.dev.json
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ProyFinal_DB_POO.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ref\ProyFinal_DB_POO.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\ProyFinal_DB_POO.pdb
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Humanizer.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.csprojAssemblyReference.cache
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.csproj.GenerateResource.cache
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.AssemblyInfoInputs.cache
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.AssemblyInfo.cs
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.csproj.CoreCompileInputs.cache
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.csproj.CopyComplete
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ref\ProyFinal_DB_POO.dll
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.pdb
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.genruntimeconfig.cache
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.frmChangePassword.resources
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.Properties.Resources.resources
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.frmAppointmentTracking.resources
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.frmRegister.resources
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.frmLogin.resources
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.frmMain.resources

@@ -11,11 +11,19 @@ using System.Windows.Forms;
 
 namespace ProyFinal_DB_POO
 {
-    public partial class Form1 : Form
+    public partial class frmMain : Form
     {
-        public Form1(Employee user)
+        public frmMain(Employee user)
         {
             InitializeComponent();
+        }
+
+        private void picVerificar_Click(object sender, EventArgs e)
+        {
+            using (frmAppointmentTracking newForm = new frmAppointmentTracking())
+            {
+                DialogResult result = newForm.ShowDialog();
+            }
         }
     }
 }

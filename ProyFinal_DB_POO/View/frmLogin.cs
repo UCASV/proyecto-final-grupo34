@@ -11,19 +11,19 @@ using System.Windows.Forms;
 
 namespace ProyFinal_DB_POO
 {
-    public partial class Login : Form
+    public partial class frmLogin : Form
     {
-        public Login()
+        public frmLogin()
         {
             InitializeComponent();
         }
 
         private void Check(object sender, MouseEventArgs e)
         {
-            if (UserTB.Text.Length == 0 || PasswordTB.Text.Length == 0)
+            if (txtUserTB.Text.Length == 0 || txtPasswordTB.Text.Length == 0)
             {
-                MessageBox.Show("ingrese su usuario o su contraseña Correctamente");
-                UserTB.Focus();
+                MessageBox.Show("Ingrese su usuario o contraseña correctamente");
+                txtUserTB.Focus();
             }
             else
             {
@@ -33,42 +33,47 @@ namespace ProyFinal_DB_POO
 
         private void login()
         {
-            using (var db = new parcial_finalContext())
+            using (var db = new ProyectContext())
             {
                 Employee user = new Employee();
-                var name = UserTB.Text;
+                var name = txtUserTB.Text;
                 try
                 {
                     user = db.Employees.Where(q => name.Contains(q.Username)).First();
-                    if (user.Password == PasswordTB.Text)
+                    if (user.Password == txtPasswordTB.Text)
                     {
-                        //codigo para abrir form main
-                        Form1 form = new Form1(user);
+                        //Codigo para abrir form main
+                        frmMain form = new frmMain(user);
                         this.Hide();
                         form.Show();
                     }
                     else
                     {
-                        MessageBox.Show("Nombre o Contraseña Incorrecta");
+                        MessageBox.Show("Nombre o contraseña incorrecta");
                     }
                 }
                 catch (Exception)
                 {
-                    MessageBox.Show("Nombre o Contraseña Incorrecta");
+                    MessageBox.Show("Nombre o Contraseña incorrecta");
 
                 }
             }
         }
+
         private void OpenChangePassword(object sender, MouseEventArgs e)
         {
-            this.Close();
-            //codigo para abrir form Para cambio de contraseñas
+
+            //Codigo para abrir form de cambio de contraseñas
+            frmChangePassword form = new frmChangePassword();
+            form.Show();
+            this.Hide();
         }
 
         private void OpenRegister(object sender, MouseEventArgs e)
         {
-            this.Close();
-            //codigo para abrir form de registro de usuarios
+            frmRegister form = new frmRegister();
+            form.Show();
+            this.Hide();
         }
     }
 }

@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace ProyFinal_DB_POO.Models
 {
-    public partial class parcial_finalContext : DbContext
+    public partial class ProyectContext : DbContext
     {
-        public parcial_finalContext()
+        public ProyectContext()
         {
         }
 
-        public parcial_finalContext(DbContextOptions<parcial_finalContext> options)
+        public ProyectContext(DbContextOptions<ProyectContext> options)
             : base(options)
         {
         }
@@ -35,7 +35,7 @@ namespace ProyFinal_DB_POO.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=parcial_final;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=MAJOM\\SQLEXPRESS;Database=ProyectoFinal;Trusted_Connection=True;");
             }
         }
 

@@ -5799,19 +5799,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\musa0\\.nuget\\packages\\": {}
+    "C:\\Users\\JoseArmando\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\musa0\\source\\repos\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
+      "projectUniqueName": "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
       "projectName": "ProyFinal_DB_POO",
-      "projectPath": "C:\\Users\\musa0\\source\\repos\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
-      "packagesPath": "C:\\Users\\musa0\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\musa0\\source\\repos\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\obj\\",
+      "projectPath": "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
+      "packagesPath": "C:\\Users\\JoseArmando\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\musa0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JoseArmando\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5880,7 +5880,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
