@@ -13,17 +13,30 @@ namespace ProyFinal_DB_POO
 {
     public partial class frmMain : Form
     {
-        public frmMain(Employee user)
+        public frmMain()
         {
             InitializeComponent();
         }
 
         private void picVerificar_Click(object sender, EventArgs e)
         {
-            using (frmAppointmentTracking newForm = new frmAppointmentTracking())
-            {
-                DialogResult result = newForm.ShowDialog();
-            }
+            this.Hide();
+            frmAppointmentTracking form = new frmAppointmentTracking();
+            form.Show();
+        }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmLogin form = new frmLogin();
+            form.Show();
+        }
+
+        private void picLog_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmLog form = new frmLog();
+            form.Show();
         }
     }
 }

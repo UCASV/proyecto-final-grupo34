@@ -43,7 +43,7 @@ namespace ProyFinal_DB_POO
                     if (user.Password == txtPasswordTB.Text)
                     {
                         //Codigo para abrir form main
-                        frmMain form = new frmMain(user);
+                        frmMain form = new frmMain();
                         this.Hide();
                         form.Show();
                     }
@@ -55,7 +55,6 @@ namespace ProyFinal_DB_POO
                 catch (Exception)
                 {
                     MessageBox.Show("Nombre o Contraseña incorrecta");
-
                 }
             }
         }

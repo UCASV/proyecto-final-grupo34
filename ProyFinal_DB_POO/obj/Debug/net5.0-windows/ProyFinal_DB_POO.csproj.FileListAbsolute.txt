@@ -59,3 +59,4 @@ C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\
 C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.frmRegister.resources
 C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.frmLogin.resources
 C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.frmMain.resources
+C:\Users\JoseArmando\Desktop\POO 0121\Aplicaciones - Windows Forms\Aplicacion03\ProyFinal_DB_POO\ProyFinal_DB_POO\obj\Debug\net5.0-windows\ProyFinal_DB_POO.frmLog.resources
