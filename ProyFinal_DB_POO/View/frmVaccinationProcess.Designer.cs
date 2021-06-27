@@ -77,6 +77,7 @@ namespace ProyFinal_DB_POO.View
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click_1);
             // 
             // lblPasarCentro
             // 
@@ -114,6 +115,7 @@ namespace ProyFinal_DB_POO.View
             this.btnGenerarCita2.TabIndex = 1;
             this.btnGenerarCita2.Text = "Generar";
             this.btnGenerarCita2.UseVisualStyleBackColor = false;
+            this.btnGenerarCita2.Click += new System.EventHandler(this.btnGenerarCita2_Click_1);
             // 
             // label2
             // 

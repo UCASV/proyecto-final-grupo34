@@ -50,7 +50,7 @@ namespace ProyFinal_DB_POO.View
             this.txtLugarVacunacion2.AutoSize = true;
             this.txtLugarVacunacion2.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtLugarVacunacion2.ForeColor = System.Drawing.Color.White;
-            this.txtLugarVacunacion2.Location = new System.Drawing.Point(304, 386);
+            this.txtLugarVacunacion2.Location = new System.Drawing.Point(304, 280);
             this.txtLugarVacunacion2.Name = "txtLugarVacunacion2";
             this.txtLugarVacunacion2.Size = new System.Drawing.Size(58, 21);
             this.txtLugarVacunacion2.TabIndex = 32;
@@ -63,7 +63,7 @@ namespace ProyFinal_DB_POO.View
             this.txtFechaHora2.AutoSize = true;
             this.txtFechaHora2.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtFechaHora2.ForeColor = System.Drawing.Color.White;
-            this.txtFechaHora2.Location = new System.Drawing.Point(304, 328);
+            this.txtFechaHora2.Location = new System.Drawing.Point(338, 230);
             this.txtFechaHora2.Name = "txtFechaHora2";
             this.txtFechaHora2.Size = new System.Drawing.Size(58, 21);
             this.txtFechaHora2.TabIndex = 31;
@@ -76,11 +76,10 @@ namespace ProyFinal_DB_POO.View
             this.txtNombre2.AutoSize = true;
             this.txtNombre2.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNombre2.ForeColor = System.Drawing.Color.White;
-            this.txtNombre2.Location = new System.Drawing.Point(304, 269);
+            this.txtNombre2.Location = new System.Drawing.Point(304, 229);
             this.txtNombre2.Name = "txtNombre2";
-            this.txtNombre2.Size = new System.Drawing.Size(58, 21);
+            this.txtNombre2.Size = new System.Drawing.Size(0, 21);
             this.txtNombre2.TabIndex = 30;
-            this.txtNombre2.Text = "label4";
             this.txtNombre2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtDUI2
@@ -89,7 +88,7 @@ namespace ProyFinal_DB_POO.View
             this.txtDUI2.AutoSize = true;
             this.txtDUI2.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtDUI2.ForeColor = System.Drawing.Color.White;
-            this.txtDUI2.Location = new System.Drawing.Point(304, 219);
+            this.txtDUI2.Location = new System.Drawing.Point(304, 179);
             this.txtDUI2.Name = "txtDUI2";
             this.txtDUI2.Size = new System.Drawing.Size(58, 21);
             this.txtDUI2.TabIndex = 29;
@@ -102,7 +101,7 @@ namespace ProyFinal_DB_POO.View
             this.lblLugar2.AutoSize = true;
             this.lblLugar2.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblLugar2.ForeColor = System.Drawing.Color.White;
-            this.lblLugar2.Location = new System.Drawing.Point(71, 386);
+            this.lblLugar2.Location = new System.Drawing.Point(71, 279);
             this.lblLugar2.Name = "lblLugar2";
             this.lblLugar2.Size = new System.Drawing.Size(187, 22);
             this.lblLugar2.TabIndex = 28;
@@ -115,7 +114,7 @@ namespace ProyFinal_DB_POO.View
             this.lblFecha2.AutoSize = true;
             this.lblFecha2.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblFecha2.ForeColor = System.Drawing.Color.White;
-            this.lblFecha2.Location = new System.Drawing.Point(71, 328);
+            this.lblFecha2.Location = new System.Drawing.Point(71, 229);
             this.lblFecha2.Name = "lblFecha2";
             this.lblFecha2.Size = new System.Drawing.Size(122, 22);
             this.lblFecha2.TabIndex = 27;
@@ -128,11 +127,10 @@ namespace ProyFinal_DB_POO.View
             this.Nombre2.AutoSize = true;
             this.Nombre2.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Nombre2.ForeColor = System.Drawing.Color.White;
-            this.Nombre2.Location = new System.Drawing.Point(71, 269);
+            this.Nombre2.Location = new System.Drawing.Point(71, 229);
             this.Nombre2.Name = "Nombre2";
-            this.Nombre2.Size = new System.Drawing.Size(73, 21);
+            this.Nombre2.Size = new System.Drawing.Size(0, 21);
             this.Nombre2.TabIndex = 26;
-            this.Nombre2.Text = "Nombre";
             this.Nombre2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbldui2
@@ -141,7 +139,7 @@ namespace ProyFinal_DB_POO.View
             this.lbldui2.AutoSize = true;
             this.lbldui2.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbldui2.ForeColor = System.Drawing.Color.White;
-            this.lbldui2.Location = new System.Drawing.Point(71, 219);
+            this.lbldui2.Location = new System.Drawing.Point(71, 179);
             this.lbldui2.Name = "lbldui2";
             this.lbldui2.Size = new System.Drawing.Size(40, 21);
             this.lbldui2.TabIndex = 25;
@@ -153,11 +151,11 @@ namespace ProyFinal_DB_POO.View
             this.lblChequearDatos2.AutoSize = true;
             this.lblChequearDatos2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblChequearDatos2.ForeColor = System.Drawing.Color.White;
-            this.lblChequearDatos2.Location = new System.Drawing.Point(171, 140);
+            this.lblChequearDatos2.Location = new System.Drawing.Point(130, 133);
             this.lblChequearDatos2.Name = "lblChequearDatos2";
-            this.lblChequearDatos2.Size = new System.Drawing.Size(157, 24);
+            this.lblChequearDatos2.Size = new System.Drawing.Size(218, 24);
             this.lblChequearDatos2.TabIndex = 24;
-            this.lblChequearDatos2.Text = "Detalle de Citas";
+            this.lblChequearDatos2.Text = "Detalle segunda dosis";
             // 
             // pictureBox2
             // 
@@ -174,20 +172,21 @@ namespace ProyFinal_DB_POO.View
             // 
             this.btnPDF2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPDF2.Image = global::ProyFinal_DB_POO.Properties.Resources.botonPDF;
-            this.btnPDF2.Location = new System.Drawing.Point(160, 449);
+            this.btnPDF2.Location = new System.Drawing.Point(145, 341);
             this.btnPDF2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnPDF2.Name = "btnPDF2";
             this.btnPDF2.Size = new System.Drawing.Size(183, 79);
             this.btnPDF2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnPDF2.TabIndex = 22;
             this.btnPDF2.TabStop = false;
+            this.btnPDF2.Click += new System.EventHandler(this.btnPDF2_Click);
             // 
             // frmAppointmentDetail2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.ClientSize = new System.Drawing.Size(490, 563);
+            this.ClientSize = new System.Drawing.Size(490, 483);
             this.Controls.Add(this.txtLugarVacunacion2);
             this.Controls.Add(this.txtFechaHora2);
             this.Controls.Add(this.txtNombre2);
@@ -202,7 +201,9 @@ namespace ProyFinal_DB_POO.View
             this.MaximizeBox = false;
             this.Name = "frmAppointmentDetail2";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detalle de segunda dosis";
+            this.Load += new System.EventHandler(this.frmAppointmentDetail2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPDF2)).EndInit();
             this.ResumeLayout(false);
