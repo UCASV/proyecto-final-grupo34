@@ -44,8 +44,8 @@ namespace ProyFinal_DB_POO
                     {
                         //Codigo para abrir form main
                         frmMain form = new frmMain();
-                        this.Hide();
                         form.Show();
+                        this.Hide();
                     }
                     else
                     {
@@ -65,14 +65,17 @@ namespace ProyFinal_DB_POO
             //Codigo para abrir form de cambio de contraseñas
             frmChangePassword form = new frmChangePassword();
             form.Show();
-            this.Hide();
         }
 
         private void OpenRegister(object sender, MouseEventArgs e)
         {
             frmRegister form = new frmRegister();
             form.Show();
-            this.Hide();
+        }
+
+        private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

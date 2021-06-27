@@ -41,9 +41,10 @@ namespace ProyFinal_DB_POO
             // btnIniciarSesion
             // 
             this.btnIniciarSesion.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnIniciarSesion.Location = new System.Drawing.Point(93, 167);
+            this.btnIniciarSesion.Location = new System.Drawing.Point(106, 223);
+            this.btnIniciarSesion.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
-            this.btnIniciarSesion.Size = new System.Drawing.Size(144, 23);
+            this.btnIniciarSesion.Size = new System.Drawing.Size(165, 31);
             this.btnIniciarSesion.TabIndex = 0;
             this.btnIniciarSesion.Text = "Iniciar sesión";
             this.btnIniciarSesion.UseVisualStyleBackColor = true;
@@ -52,18 +53,20 @@ namespace ProyFinal_DB_POO
             // txtUserTB
             // 
             this.txtUserTB.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtUserTB.Location = new System.Drawing.Point(70, 40);
+            this.txtUserTB.Location = new System.Drawing.Point(80, 53);
+            this.txtUserTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtUserTB.Name = "txtUserTB";
-            this.txtUserTB.Size = new System.Drawing.Size(191, 22);
+            this.txtUserTB.Size = new System.Drawing.Size(218, 26);
             this.txtUserTB.TabIndex = 1;
             // 
             // txtPasswordTB
             // 
             this.txtPasswordTB.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtPasswordTB.Location = new System.Drawing.Point(70, 104);
+            this.txtPasswordTB.Location = new System.Drawing.Point(80, 139);
+            this.txtPasswordTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPasswordTB.Name = "txtPasswordTB";
             this.txtPasswordTB.PasswordChar = '*';
-            this.txtPasswordTB.Size = new System.Drawing.Size(191, 22);
+            this.txtPasswordTB.Size = new System.Drawing.Size(218, 26);
             this.txtPasswordTB.TabIndex = 2;
             this.txtPasswordTB.UseSystemPasswordChar = true;
             // 
@@ -72,9 +75,9 @@ namespace ProyFinal_DB_POO
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(70, 22);
+            this.label1.Location = new System.Drawing.Point(80, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 15);
+            this.label1.Size = new System.Drawing.Size(58, 17);
             this.label1.TabIndex = 3;
             this.label1.Text = "Usuario";
             // 
@@ -83,18 +86,19 @@ namespace ProyFinal_DB_POO
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(70, 86);
+            this.label2.Location = new System.Drawing.Point(80, 115);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 15);
+            this.label2.Size = new System.Drawing.Size(84, 17);
             this.label2.TabIndex = 4;
             this.label2.Text = "Contraseña";
             // 
             // btnRegistrarse
             // 
             this.btnRegistrarse.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRegistrarse.Location = new System.Drawing.Point(93, 207);
+            this.btnRegistrarse.Location = new System.Drawing.Point(106, 276);
+            this.btnRegistrarse.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnRegistrarse.Name = "btnRegistrarse";
-            this.btnRegistrarse.Size = new System.Drawing.Size(144, 23);
+            this.btnRegistrarse.Size = new System.Drawing.Size(165, 31);
             this.btnRegistrarse.TabIndex = 5;
             this.btnRegistrarse.Text = "Registrarse";
             this.btnRegistrarse.UseVisualStyleBackColor = true;
@@ -104,9 +108,10 @@ namespace ProyFinal_DB_POO
             // 
             this.btnCambiarContra.BackColor = System.Drawing.SystemColors.Control;
             this.btnCambiarContra.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCambiarContra.Location = new System.Drawing.Point(93, 246);
+            this.btnCambiarContra.Location = new System.Drawing.Point(106, 328);
+            this.btnCambiarContra.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCambiarContra.Name = "btnCambiarContra";
-            this.btnCambiarContra.Size = new System.Drawing.Size(144, 24);
+            this.btnCambiarContra.Size = new System.Drawing.Size(165, 32);
             this.btnCambiarContra.TabIndex = 6;
             this.btnCambiarContra.Text = "Cambiar contraseña";
             this.btnCambiarContra.UseVisualStyleBackColor = false;
@@ -114,10 +119,10 @@ namespace ProyFinal_DB_POO
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.ClientSize = new System.Drawing.Size(325, 294);
+            this.ClientSize = new System.Drawing.Size(371, 392);
             this.Controls.Add(this.btnCambiarContra);
             this.Controls.Add(this.btnRegistrarse);
             this.Controls.Add(this.label2);
@@ -126,10 +131,12 @@ namespace ProyFinal_DB_POO
             this.Controls.Add(this.txtUserTB);
             this.Controls.Add(this.btnIniciarSesion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio de sesión - Módulo de gestores";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmLogin_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

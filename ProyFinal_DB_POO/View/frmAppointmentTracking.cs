@@ -1,4 +1,5 @@
 ﻿using ProyFinal_DB_POO.Models;
+using ProyFinal_DB_POO.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -52,7 +53,7 @@ namespace ProyFinal_DB_POO
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             frmMain form = new frmMain();
             form.Show();
         }
@@ -67,7 +68,8 @@ namespace ProyFinal_DB_POO
                 
                 if (result.Count > 0 && chkCondiciones.Checked)
                 {
-                    //Se abre form de proceso de vacunacion
+                    frmVaccinationProcess newForm = new frmVaccinationProcess();
+                    newForm.Show();
                 }
                 else
                 {

@@ -44,9 +44,7 @@ namespace ProyFinal_DB_POO
 
         private void back(object sender, MouseEventArgs e)
         {
-            this.Hide();
-            frmLogin form = new frmLogin();
-            form.Show();
+            this.Close();
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
