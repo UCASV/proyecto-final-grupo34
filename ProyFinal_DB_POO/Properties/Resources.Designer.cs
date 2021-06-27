@@ -63,6 +63,16 @@ namespace ProyFinal_DB_POO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap botonAgendar {
+            get {
+                object obj = ResourceManager.GetObject("botonAgendar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap botonHacerCita {
             get {
                 object obj = ResourceManager.GetObject("botonHacerCita", resourceCulture);

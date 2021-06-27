@@ -13,9 +13,12 @@ namespace ProyFinal_DB_POO
 {
     public partial class frmMain : Form
     {
-        public frmMain()
+        int idEmployee;
+
+        public frmMain(int id)
         {
             InitializeComponent();
+            idEmployee = id;
         }
 
         private void picVerificar_Click(object sender, EventArgs e)
@@ -27,6 +30,14 @@ namespace ProyFinal_DB_POO
 
         private void btnCerrarSesion_Click(object sender, EventArgs e)
         {
+            using (var db = new ProyectContext())
+            {
+                Log log = db.Set<Log>().OrderBy(l => l.LogId).LastOrDefault(u => u.EmployeeId == idEmployee);
+                log.LogOut = DateTime.Now;
+                db.Update(log);
+                db.SaveChanges();
+            }
+
             this.Hide();
             frmLogin form = new frmLogin();
             form.Show();
@@ -36,6 +47,13 @@ namespace ProyFinal_DB_POO
         {
             this.Hide();
             frmLog form = new frmLog();
+            form.Show();
+        }
+
+        private void picReservar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmAppointmentProcess form = new frmAppointmentProcess();
             form.Show();
         }
     }

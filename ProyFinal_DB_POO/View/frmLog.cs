@@ -30,8 +30,9 @@ namespace ProyFinal_DB_POO
         private void btnVolver_Click(object sender, EventArgs e)
         {
             Employee user = new Employee();
+
             this.Hide();
-            frmMain form = new frmMain();
+            frmMain form = new frmMain(user.EmployeeId);
             form.Show();
         }
     }

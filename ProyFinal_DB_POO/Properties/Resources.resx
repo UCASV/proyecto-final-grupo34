@@ -121,19 +121,22 @@
   <data name="botonVacunacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\botonVacunacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="botonHacerCita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botonHacerCita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="botonVerificar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\botonVerificar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="botonLog" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\botonLog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="botonPDF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botonPDF1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo-covid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo-covid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="botonHacerCita" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botonHacerCita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="botonPDF" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botonPDF1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="botonAgendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botonAgendar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -37,13 +37,16 @@ namespace ProyFinal_DB_POO
             {
                 Employee user = new Employee();
                 var name = txtUserTB.Text;
+
                 try
                 {
                     user = db.Employees.Where(q => name.Contains(q.Username)).First();
                     if (user.Password == txtPasswordTB.Text)
                     {
+                        log(user.Booth, user);
+
                         //Codigo para abrir form main
-                        frmMain form = new frmMain();
+                        frmMain form = new frmMain(user.EmployeeId);
                         this.Hide();
                         form.Show();
                     }
@@ -73,6 +76,28 @@ namespace ProyFinal_DB_POO
             frmRegister form = new frmRegister();
             form.Show();
             this.Hide();
+        }
+
+        private void log(Booth cabina, Employee empleado)
+        {
+            var Db = new ProyectContext();
+
+            Log log = new Log();
+            log.EmployeeId = empleado.EmployeeId;
+            log.LogIn = System.DateTime.Now;
+            log.LogOut = System.DateTime.Now;
+
+            if (empleado.BoothId == null)
+            {
+                log.BoothId = 1;
+            }
+            else
+            {
+                log.BoothId = empleado.BoothId.Value;
+            }
+
+            Db.Add(log);
+            Db.SaveChanges();
         }
     }
 }

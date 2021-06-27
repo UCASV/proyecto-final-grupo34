@@ -119,7 +119,7 @@ namespace ProyFinal_DB_POO
             this.lblCitizenInfo.Name = "lblCitizenInfo";
             this.lblCitizenInfo.ReadOnly = true;
             this.lblCitizenInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.lblCitizenInfo.Size = new System.Drawing.Size(287, 179);
+            this.lblCitizenInfo.Size = new System.Drawing.Size(287, 153);
             this.lblCitizenInfo.TabIndex = 6;
             // 
             // label1
@@ -136,11 +136,11 @@ namespace ProyFinal_DB_POO
             // chkCondiciones
             // 
             this.chkCondiciones.AutoSize = true;
-            this.chkCondiciones.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.chkCondiciones.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.chkCondiciones.ForeColor = System.Drawing.Color.White;
-            this.chkCondiciones.Location = new System.Drawing.Point(40, 496);
+            this.chkCondiciones.Location = new System.Drawing.Point(76, 482);
             this.chkCondiciones.Name = "chkCondiciones";
-            this.chkCondiciones.Size = new System.Drawing.Size(640, 24);
+            this.chkCondiciones.Size = new System.Drawing.Size(567, 18);
             this.chkCondiciones.TabIndex = 8;
             this.chkCondiciones.Text = "He leído de los posibles efectos secundarios y aceptado los términos para comenza" +
     "r el proceso de vacunación.";
@@ -150,9 +150,9 @@ namespace ProyFinal_DB_POO
             // 
             this.picVacunacion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picVacunacion.Image = global::ProyFinal_DB_POO.Properties.Resources.botonVacunacion;
-            this.picVacunacion.Location = new System.Drawing.Point(394, 303);
+            this.picVacunacion.Location = new System.Drawing.Point(422, 299);
             this.picVacunacion.Name = "picVacunacion";
-            this.picVacunacion.Size = new System.Drawing.Size(285, 75);
+            this.picVacunacion.Size = new System.Drawing.Size(258, 64);
             this.picVacunacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picVacunacion.TabIndex = 9;
             this.picVacunacion.TabStop = false;
@@ -162,12 +162,13 @@ namespace ProyFinal_DB_POO
             // 
             this.picPDF.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picPDF.Image = global::ProyFinal_DB_POO.Properties.Resources.botonPDF;
-            this.picPDF.Location = new System.Drawing.Point(394, 403);
+            this.picPDF.Location = new System.Drawing.Point(422, 388);
             this.picPDF.Name = "picPDF";
-            this.picPDF.Size = new System.Drawing.Size(286, 75);
+            this.picPDF.Size = new System.Drawing.Size(259, 64);
             this.picPDF.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picPDF.TabIndex = 10;
             this.picPDF.TabStop = false;
+            this.picPDF.Click += new System.EventHandler(this.picPDF_Click);
             // 
             // frmAppointmentTracking
             // 

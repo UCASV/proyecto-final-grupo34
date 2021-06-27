@@ -49,6 +49,7 @@ namespace ProyFinal_DB_POO
             this.picReservar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picReservar.TabIndex = 0;
             this.picReservar.TabStop = false;
+            this.picReservar.Click += new System.EventHandler(this.picReservar_Click);
             // 
             // picVerificar
             // 
