@@ -106,7 +106,7 @@ namespace ProyFinal_DB_POO
                     
                     var database3 = (from q in db.VaccinationCenters where q.CenterId == idCenter select q).First();
                     
-                    PdfDocument pdfDocument = new PdfDocument(new PdfWriter(new FileStream($"../../../../DetalleCita-{txtDUI.Text}.pdf", FileMode.Create, FileAccess.Write)));
+                    PdfDocument pdfDocument = new PdfDocument(new PdfWriter(new FileStream($"../../../../Detalle_Cita-{txtDUI.Text}.pdf", FileMode.Create, FileAccess.Write)));
                     Document document = new Document(pdfDocument);
 
                     string title = "DETALLE DE CITA PARA VACUNACIÓN - COVID 19";
