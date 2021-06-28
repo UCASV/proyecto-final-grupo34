@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj": {}
+    "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj": {
+    "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
+        "projectUniqueName": "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
         "projectName": "ProyFinal_DB_POO",
-        "projectPath": "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
+        "projectPath": "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
         "packagesPath": "C:\\Users\\JoseArmando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\obj\\",
+        "outputPath": "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JoseArmando\\AppData\\Roaming\\NuGet\\NuGet.Config",

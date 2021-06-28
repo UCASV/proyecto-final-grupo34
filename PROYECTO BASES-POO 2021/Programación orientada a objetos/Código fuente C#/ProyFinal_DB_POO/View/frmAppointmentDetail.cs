@@ -19,15 +19,17 @@ namespace ProyFinal_DB_POO
     {
         DateTime fecha_hora;
         string lugar_vacunacion, nombre_ciudadano;
-        int DUI;
+        int DUI, idEmployee, idCenter;
 
-        public frmAppointmentDetail(DateTime dt, string lv, int dui, string nc)
+        public frmAppointmentDetail(DateTime dt, string lv, int dui, string nc, int id, int id2)
         {
             InitializeComponent();
             fecha_hora = dt;
             lugar_vacunacion = lv;
             DUI = dui;
             nombre_ciudadano = nc;
+            idEmployee = id;
+            idCenter = id2;
         }
 
         private void frmAppointmentDetail_Load(object sender, EventArgs e)
@@ -40,10 +42,8 @@ namespace ProyFinal_DB_POO
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            Employee user = new Employee();
-
             this.Hide();
-            frmMain form = new frmMain(user.EmployeeId);
+            frmMain form = new frmMain(idEmployee, idCenter);
             form.Show();
         }
 

@@ -49,12 +49,9 @@ namespace ProyFinal_DB_POO
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            this.Close();
-
-            using (frmLogin newForm = new frmLogin())
-            {
-                DialogResult result = newForm.ShowDialog();
-            }
+            this.Hide();
+            frmLogin form = new frmLogin();
+            form.Show();
         }
     }
 }

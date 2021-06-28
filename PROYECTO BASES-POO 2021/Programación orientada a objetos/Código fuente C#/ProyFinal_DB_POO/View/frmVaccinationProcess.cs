@@ -14,9 +14,13 @@ namespace ProyFinal_DB_POO
 {
     public partial class frmVaccinationProcess : Form
     {
-        public frmVaccinationProcess()
+        int idEmployee, idCenter;
+
+        public frmVaccinationProcess(int id, int id2)
         {
             InitializeComponent();
+            idEmployee = id;
+            idCenter = id2;
         }
 
         private List<SideEffect> getSelectedValues()
@@ -112,7 +116,7 @@ namespace ProyFinal_DB_POO
                 cita2.Center = db.Set<VaccinationCenter>()
                     .SingleOrDefault(v => v.CenterId == resultado[0].CenterId);
 
-                frmAppointmentDetail2 ventana = new frmAppointmentDetail2(cita2);
+                frmAppointmentDetail2 ventana = new frmAppointmentDetail2(cita2, idEmployee, idCenter);
                 ventana.Show();
                 this.Hide();
                 MessageBox.Show("base actualizada", "Vacunación", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -125,10 +129,8 @@ namespace ProyFinal_DB_POO
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            Employee user = new Employee();
-
             this.Hide();
-            frmMain form = new frmMain(user.EmployeeId);
+            frmMain form = new frmMain(idEmployee, idCenter);
             form.Show();
         }
     }

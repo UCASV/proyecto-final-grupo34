@@ -13,9 +13,13 @@ namespace ProyFinal_DB_POO
 {
     public partial class frmAppointmentProcess : Form
     {
-        public frmAppointmentProcess()
+        int idEmployee, idCenter;
+
+        public frmAppointmentProcess(int id, int id2)
         {
             InitializeComponent();
+            idEmployee = id;
+            idCenter = id2;
         }
 
         private void frmAppointmentProcess_Load(object sender, EventArgs e)
@@ -134,11 +138,13 @@ namespace ProyFinal_DB_POO
                         db.Add(nueva_cita);
                         db.SaveChanges();
 
+                        idCenter = vc_elegida.CenterId;
+
                         MessageBox.Show("Cita creada exitosamente", "Vacunación", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         this.Hide();
 
-                        frmAppointmentDetail ventana = new frmAppointmentDetail(nueva_cita.DateTime, vc_elegida.VaccinationCenter1, dui_ciudadano, nuevo.Name);
+                        frmAppointmentDetail ventana = new frmAppointmentDetail(nueva_cita.DateTime, vc_elegida.VaccinationCenter1, dui_ciudadano, nuevo.Name, idEmployee, idCenter);
                         ventana.ShowDialog();
                     }
                 }
@@ -151,10 +157,8 @@ namespace ProyFinal_DB_POO
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            Employee user = new Employee();
-
             this.Hide();
-            frmMain form = new frmMain(user.EmployeeId);
+            frmMain form = new frmMain(idEmployee, idCenter);
             form.Show();
         }
     }

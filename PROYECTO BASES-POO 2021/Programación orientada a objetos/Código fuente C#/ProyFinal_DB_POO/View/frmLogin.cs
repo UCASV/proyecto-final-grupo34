@@ -31,16 +31,12 @@ namespace ProyFinal_DB_POO
             }
         }
 
-        private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
-
         private void login()
         {
             using (var db = new ProyectContext())
             {
                 Employee user = new Employee();
+                VaccinationCenter center = new VaccinationCenter();
                 var name = txtUserTB.Text;
 
                 try
@@ -51,7 +47,7 @@ namespace ProyFinal_DB_POO
                         log(user.Booth, user);
 
                         //Codigo para abrir form main
-                        frmMain form = new frmMain(user.EmployeeId);
+                        frmMain form = new frmMain(user.EmployeeId, center.CenterId);
                         this.Hide();
                         form.Show();
                     }

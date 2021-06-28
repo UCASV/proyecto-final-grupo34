@@ -13,27 +13,25 @@ namespace ProyFinal_DB_POO
 {
     public partial class frmMain : Form
     {
-        int idEmployee;
+        int idEmployee, idCenter;
 
-        public frmMain(int id)
+        public frmMain(int id, int id2)
         {
             InitializeComponent();
             idEmployee = id;
+            idCenter = id2;
         }
 
         private void picVerificar_Click(object sender, EventArgs e)
         {
-            Appointment appointment = new Appointment();
-            VaccinationCenter vaccCenter = new VaccinationCenter();
-
             this.Hide();
-            frmAppointmentTracking form = new frmAppointmentTracking(appointment.DateTime, vaccCenter.VaccinationCenter1);
+            frmAppointmentTracking form = new frmAppointmentTracking(idEmployee, idCenter);
             form.Show();
         }
 
         private void btnCerrarSesion_Click(object sender, EventArgs e)
         {
-            using (var db = new ProyectContext())
+            using(var db = new ProyectContext())
             {
                 Log log = db.Set<Log>().OrderBy(l => l.LogId).LastOrDefault(u => u.EmployeeId == idEmployee);
                 log.LogOut = DateTime.Now;
@@ -49,14 +47,14 @@ namespace ProyFinal_DB_POO
         private void picLog_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmLog form = new frmLog();
+            frmLog form = new frmLog(idEmployee, idCenter);
             form.Show();
         }
 
         private void picReservar_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmAppointmentProcess form = new frmAppointmentProcess();
+            frmAppointmentProcess form = new frmAppointmentProcess(idEmployee, idCenter);
             form.Show();
         }
     }

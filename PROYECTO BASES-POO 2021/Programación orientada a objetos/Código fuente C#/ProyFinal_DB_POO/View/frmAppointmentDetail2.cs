@@ -17,12 +17,16 @@ namespace ProyFinal_DB_POO
 {
     public partial class frmAppointmentDetail2 : Form
     {
+        int idEmployee, idCenter;
+
         public Appointment cita2 { get; set; }
         
-        public frmAppointmentDetail2(Appointment cita2)
+        public frmAppointmentDetail2(Appointment cita2, int id, int id2)
         {
             InitializeComponent();
             this.cita2 = cita2;
+            idEmployee = id;
+            idCenter = id2;
         }
 
         private void frmAppointmentDetail2_Load(object sender, EventArgs e)
@@ -40,7 +44,7 @@ namespace ProyFinal_DB_POO
             String titulo = "Detalle de segunda dosis";
             String duiCiu = $"DUI: {cita2.Dui}";
             String fechaHora = $"Fecha y hora: {cita2.DateTime}";
-            String lugarVacu = $"Lugar de vacunacion: {cita2.Center}";
+            String lugarVacu = $"Lugar de vacunacion: {cita2.Center.VaccinationCenter1}";
             document.Add(new Paragraph(titulo));
             document.Add(new Paragraph(duiCiu));
             document.Add(new Paragraph(fechaHora));
@@ -51,10 +55,8 @@ namespace ProyFinal_DB_POO
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            Employee user = new Employee();
-
             this.Hide();
-            frmMain form = new frmMain(user.EmployeeId);
+            frmMain form = new frmMain(idEmployee, idCenter);
             form.Show();
         }
     }

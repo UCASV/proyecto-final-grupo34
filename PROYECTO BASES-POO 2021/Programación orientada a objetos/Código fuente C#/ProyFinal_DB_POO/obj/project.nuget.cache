@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hA4FAnbXv/UMqv3fpvu8Ah8lCf1h4iSrYZCn4mvBlEI6dxoy2KmNhfrgXN84E6Q7/FV9kEGQDZcSZ3nrPayqcQ==",
+  "dgSpecHash": "DoTPiP5/GnLbW/5bomRNTgAJhx6wLWzIAZ85/m2T60+MqU8XR2puxXABTt1aNgfcG4qsrOzN+rVaeMk6f28CKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
+  "projectFilePath": "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JoseArmando\\.nuget\\packages\\common.logging\\3.4.1\\common.logging.3.4.1.nupkg.sha512",
     "C:\\Users\\JoseArmando\\.nuget\\packages\\common.logging.core\\3.4.1\\common.logging.core.3.4.1.nupkg.sha512",

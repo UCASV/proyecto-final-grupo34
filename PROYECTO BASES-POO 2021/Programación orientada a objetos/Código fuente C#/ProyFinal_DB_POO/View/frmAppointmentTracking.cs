@@ -17,14 +17,13 @@ namespace ProyFinal_DB_POO
 {
     public partial class frmAppointmentTracking : Form
     {
-        DateTime fecha_hora;
-        string lugar_vacunacion;
+        int idEmployee, idCenter;
 
-        public frmAppointmentTracking(DateTime dt, string lv)
+        public frmAppointmentTracking(int id, int id2)
         {
             InitializeComponent();
-            fecha_hora = dt;
-            lugar_vacunacion = lv;
+            idEmployee = id;
+            idCenter = id2;
         }
 
         private void btnIngresarDUI_Click(object sender, EventArgs e)
@@ -61,10 +60,8 @@ namespace ProyFinal_DB_POO
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            Employee user = new Employee();
-
             this.Hide();
-            frmMain form = new frmMain(user.EmployeeId);
+            frmMain form = new frmMain(idEmployee, idCenter);
             form.Show();
         }
 
@@ -79,7 +76,7 @@ namespace ProyFinal_DB_POO
                 if (result.Count > 0 && chkCondiciones.Checked)
                 {
                     this.Hide();
-                    frmVaccinationProcess newForm = new frmVaccinationProcess();
+                    frmVaccinationProcess newForm = new frmVaccinationProcess(idEmployee, idCenter);
                     newForm.Show();
                 }
                 else
@@ -103,15 +100,20 @@ namespace ProyFinal_DB_POO
                 if (result.Count > 0)
                 {
                     var database = (from q in db.Citizens where q.Dui == dui select q).First();
+                    var database2 = (from q in db.Appointments where q.Dui == dui select q).First();
 
+                    idCenter = database2.CenterId;
+                    
+                    var database3 = (from q in db.VaccinationCenters where q.CenterId == idCenter select q).First();
+                    
                     PdfDocument pdfDocument = new PdfDocument(new PdfWriter(new FileStream($"../../../../DetalleCita-{txtDUI.Text}.pdf", FileMode.Create, FileAccess.Write)));
                     Document document = new Document(pdfDocument);
 
                     string title = "DETALLE DE CITA PARA VACUNACIÓN - COVID 19";
                     string name = $"Nombre: {database.Name}";
                     string duiPDF = $"DUI: {txtDUI.Text}";
-                    string datetime = $"Fecha y hora de primera cita: {fecha_hora}";
-                    string place = $"Lugar de vacunación: {lugar_vacunacion}";
+                    string datetime = $"Fecha y hora de primera cita: {database2.DateTime}";
+                    string place = $"Lugar de vacunación: {database3.VaccinationCenter1}";
 
                     document.Add(new Paragraph(title));
                     document.Add(new Paragraph(name));

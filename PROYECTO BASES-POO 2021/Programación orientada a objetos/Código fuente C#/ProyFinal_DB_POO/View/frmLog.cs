@@ -13,9 +13,15 @@ namespace ProyFinal_DB_POO
 {
     public partial class frmLog : Form
     {
-        public frmLog()
+        int idEmployee;
+        int idCenter;
+
+        public frmLog(int id, int id2)
         {
             InitializeComponent();
+            idEmployee = id;
+            idCenter = id2;
+
         }
 
         private void frmLog_Load(object sender, EventArgs e)
@@ -29,10 +35,8 @@ namespace ProyFinal_DB_POO
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            Employee user = new Employee();
-
             this.Hide();
-            frmMain form = new frmMain(user.EmployeeId);
+            frmMain form = new frmMain(idEmployee, idCenter);
             form.Show();
         }
     }
