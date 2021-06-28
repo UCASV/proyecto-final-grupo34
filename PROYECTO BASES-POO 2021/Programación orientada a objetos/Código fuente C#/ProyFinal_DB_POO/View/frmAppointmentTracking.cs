@@ -102,24 +102,40 @@ namespace ProyFinal_DB_POO
 
                 if (result.Count > 0)
                 {
-                    var database = (from q in db.Citizens where q.Dui == dui select q).First();
+                    int AppointmentId = Convert.ToInt32((txtDUI.Text));
+                    List<Appointment> appointments = db.Appointments
+                        .ToList();
+                    List<Appointment> resultado = appointments
+                        .Where(r => r.Dui == AppointmentId)
+                        .ToList();
 
-                    PdfDocument pdfDocument = new PdfDocument(new PdfWriter(new FileStream($"../../../../DetalleCita-{txtDUI.Text}.pdf", FileMode.Create, FileAccess.Write)));
-                    Document document = new Document(pdfDocument);
+                    if (resultado.Count > 0)
+                    {
+                        Appointment cita = new Appointment();
+                        DateTime cita1 = resultado[0].DateTime;
+                        cita.DateTime = cita1;
+                        cita.Center = db.Set<VaccinationCenter>()
+                            .SingleOrDefault(v => v.CenterId == resultado[0].CenterId);
 
-                    string title = "DETALLE DE CITA PARA VACUNACIÓN - COVID 19";
-                    string name = $"Nombre: {database.Name}";
-                    string duiPDF = $"DUI: {txtDUI.Text}";
-                    string datetime = $"Fecha y hora de primera cita: {fecha_hora}";
-                    string place = $"Lugar de vacunación: {lugar_vacunacion}";
+                        var database = (from q in db.Citizens where q.Dui == dui select q).First();
 
-                    document.Add(new Paragraph(title));
-                    document.Add(new Paragraph(name));
-                    document.Add(new Paragraph(duiPDF));
-                    document.Add(new Paragraph(datetime));
-                    document.Add(new Paragraph(place));
-                    document.Close();
-                    MessageBox.Show("PDF creado y guardado.", "Cita para vacunación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        PdfDocument pdfDocument = new PdfDocument(new PdfWriter(new FileStream($"../../../../Detalle_Cita-{txtDUI.Text}.pdf", FileMode.Create, FileAccess.Write)));
+                        Document document = new Document(pdfDocument);
+
+                        string title = "DETALLE DE CITA PARA VACUNACIÓN - COVID 19";
+                        string name = $"Nombre: {database.Name}";
+                        string duiPDF = $"DUI: {txtDUI.Text}";
+                        string datetime = $"Fecha y hora de primera cita: {cita.DateTime}";
+                        string place = $"Lugar de vacunación: {cita.Center.VaccinationCenter1}";
+
+                        document.Add(new Paragraph(title));
+                        document.Add(new Paragraph(name));
+                        document.Add(new Paragraph(duiPDF));
+                        document.Add(new Paragraph(datetime));
+                        document.Add(new Paragraph(place));
+                        document.Close();
+                        MessageBox.Show("PDF creado y guardado.", "Cita para vacunación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
                 }
                 else
                 {

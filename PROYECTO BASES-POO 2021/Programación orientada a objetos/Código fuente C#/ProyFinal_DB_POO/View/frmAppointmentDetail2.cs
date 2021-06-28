@@ -40,7 +40,7 @@ namespace ProyFinal_DB_POO
             String titulo = "Detalle de segunda dosis";
             String duiCiu = $"DUI: {cita2.Dui}";
             String fechaHora = $"Fecha y hora: {cita2.DateTime}";
-            String lugarVacu = $"Lugar de vacunacion: {cita2.Center}";
+            String lugarVacu = $"Lugar de vacunacion: {cita2.Center.VaccinationCenter1}";
             document.Add(new Paragraph(titulo));
             document.Add(new Paragraph(duiCiu));
             document.Add(new Paragraph(fechaHora));
