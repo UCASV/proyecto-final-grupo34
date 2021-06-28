@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
+        "projectName": "ProyFinal_DB_POO",
+        "projectPath": "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
+        "packagesPath": "C:\\Users\\JoseArmando\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JoseArmando\\Desktop\\POO 0121\\Aplicaciones - Windows Forms\\Aplicacion03\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JoseArmando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[7.1.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
