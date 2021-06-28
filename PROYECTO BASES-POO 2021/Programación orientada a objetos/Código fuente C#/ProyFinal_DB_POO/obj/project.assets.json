@@ -3114,7 +3114,6 @@
       "path": "system.appcontext/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5520,7 +5519,6 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7004,19 +7002,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
-      "projectName": "ProyFinal_DB_POO",
-      "projectPath": "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
-      "packagesPath": "C:\\Users\\JoseArmando\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\luisc\\OneDrive\\Escritorio\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
       "projectName": "ProyFinal_DB_POO",
       "projectPath": "C:\\Users\\luisc\\OneDrive\\Escritorio\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
       "packagesPath": "C:\\Users\\luisc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\luisc\\OneDrive\\Escritorio\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\obj\\",
->>>>>>> c4b8a37e2092e0fc15c73345e652e54b4629ad0f
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7099,5 +7089,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\luisc\\OneDrive\\Escritorio\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

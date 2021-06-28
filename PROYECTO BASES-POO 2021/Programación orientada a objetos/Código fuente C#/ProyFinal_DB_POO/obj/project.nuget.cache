@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "DoTPiP5/GnLbW/5bomRNTgAJhx6wLWzIAZ85/m2T60+MqU8XR2puxXABTt1aNgfcG4qsrOzN+rVaeMk6f28CKw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
-=======
   "dgSpecHash": "omJeeGawzwBdd5JvdUOSjlmwVIFr1X/AW2HNy2Jql3S2STlKAYW/6B//2L1wC2FgyPXSmRx06rRTfyPyzbg27Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\luisc\\OneDrive\\Escritorio\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
->>>>>>> c4b8a37e2092e0fc15c73345e652e54b4629ad0f
   "expectedPackageFiles": [
     "C:\\Users\\luisc\\.nuget\\packages\\common.logging\\3.4.1\\common.logging.3.4.1.nupkg.sha512",
     "C:\\Users\\luisc\\.nuget\\packages\\common.logging.core\\3.4.1\\common.logging.core.3.4.1.nupkg.sha512",
@@ -137,5 +131,12 @@
     "C:\\Users\\luisc\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\luisc\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\luisc\\OneDrive\\Escritorio\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

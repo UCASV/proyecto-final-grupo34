@@ -100,5 +100,10 @@ namespace ProyFinal_DB_POO
             Db.Add(log);
             Db.SaveChanges();
         }
+
+        private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

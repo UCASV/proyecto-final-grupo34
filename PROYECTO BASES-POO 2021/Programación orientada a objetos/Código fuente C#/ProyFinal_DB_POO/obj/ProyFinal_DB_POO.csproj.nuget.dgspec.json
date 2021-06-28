@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
-        "projectName": "ProyFinal_DB_POO",
-        "projectPath": "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
-        "packagesPath": "C:\\Users\\JoseArmando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoseArmando\\Desktop\\Proyecto Final\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\obj\\",
-=======
     "C:\\Users\\luisc\\OneDrive\\Escritorio\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj": {}
   },
   "projects": {
@@ -25,7 +12,6 @@
         "projectPath": "C:\\Users\\luisc\\OneDrive\\Escritorio\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\ProyFinal_DB_POO.csproj",
         "packagesPath": "C:\\Users\\luisc\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\luisc\\OneDrive\\Escritorio\\proyecto-final-grupo34\\PROYECTO BASES-POO 2021\\Programación orientada a objetos\\Código fuente C#\\ProyFinal_DB_POO\\obj\\",
->>>>>>> c4b8a37e2092e0fc15c73345e652e54b4629ad0f
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
