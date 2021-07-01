@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyFinal_DB_POO", "ProyFinal_DB_POO\ProyFinal_DB_POO.csproj", "{E7E06501-47C2-4110-817D-96A2F8B2DBCA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ProyectoFinal_Installer", "ProyectoFinal_Installer\ProyectoFinal_Installer.vdproj", "{4C840060-60AD-469D-9E39-2A2748811BF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7E06501-47C2-4110-817D-96A2F8B2DBCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E06501-47C2-4110-817D-96A2F8B2DBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E06501-47C2-4110-817D-96A2F8B2DBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E06501-47C2-4110-817D-96A2F8B2DBCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C840060-60AD-469D-9E39-2A2748811BF9}.Debug|Any CPU.ActiveCfg = Debug
+		{4C840060-60AD-469D-9E39-2A2748811BF9}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1B4AD1C-6639-427E-9A73-F4835F6A3B76}
+	EndGlobalSection
+EndGlobal

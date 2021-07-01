@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\luisc\OneDrive\Escritorio\proyecto-final-grupo34\PROYECTO BASES-POO 2021\Programación orientada a objetos\Código fuente C#\ProyFinal_DB_POO\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="View\frmVaccinationProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmAppointmentDetail2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmAppointmentProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmAppointmentDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmAppointmentTracking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
