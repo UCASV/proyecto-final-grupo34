@@ -1,7 +1,7 @@
 # Documentación oficial
 ##### Tabla de contenidos
-+ [Aspectos técnicos](#aspectos-tecnicos)
-+ [Instalación](#instalacion)
++ [Aspectos técnicos](#aspectos-técnicos)
++ [Instalación](#instalación)
 + [Manual del usuario](#manual-del-usuario)
 
 ## _Aspectos técnicos_
